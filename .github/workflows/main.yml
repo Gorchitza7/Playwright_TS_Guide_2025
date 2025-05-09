@@ -22,7 +22,7 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright tests
         run: npx playwright test --project chromium --grep '@githubAction'
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v3.1.3
         if: always()
         with:
           name: playwright-report
