@@ -1,0 +1,21 @@
+[
+	{
+		"testName": "Test 1 - Positive test POM",
+		"firstName": "Andrii",
+		"age": "30",
+		"isStudent": true,
+		"expectedFirstName": "Andrii",
+		"expectedAge": "30",
+		"expectedIsStudent": "Yes"
+	},
+
+	{
+		"testName": "Test 1 - Negative test POM",
+		"firstName": "Alice",
+		"age": "25",
+		"isStudent": false,
+		"expectedFirstName": "Alice",
+		"expectedAge": "25",
+		"expectedIsStudent": "No"
+	}
+]
